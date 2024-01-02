@@ -52,7 +52,6 @@ $username = $_SESSION["username"];
                         <!-- user dropdown option -->
                         <div class="dropdown-menu" aria-labelledby="userDropdown">
                             <a class="dropdown-item" href="backEnd/user">Profile</a>
-                            <a class="dropdown-item" href="backEnd">Dashboard</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="backEnd/logout.php">Logout</a>
                         </div>
