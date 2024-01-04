@@ -68,6 +68,7 @@ if ($result->num_rows > 0) {
     // JavaScript for payment and printing
     echo "<script>
             function makePayment() {
+                // use payment getway 
                 alert('Please proceed to the counter for payment.');
             }
 

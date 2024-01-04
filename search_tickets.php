@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     VALUES ('$user_id', '$bus_trip_id', '$selected_seat', '$date')";
 
     if ($conn->query($insertQuery) === TRUE) {
+        // redirect to eticket page
         header("Location: eticket.php");
     } else {
         echo "Error: " . $insertQuery . "<br>" . $conn->error;
